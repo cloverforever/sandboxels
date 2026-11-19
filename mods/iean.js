@@ -65,7 +65,7 @@ elements.cp_ph_mixture = {
     hidden: true,
     state: "solid",
     reactions: {
-        "sugar_water": { elem1: "cough_syrup", elem2: "null" },
+        "sugar_water": { elem1: "cough_syrup", elem2: "fragrance" },
     },
 }
 
