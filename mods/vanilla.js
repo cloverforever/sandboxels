@@ -7,7 +7,7 @@ elements.vanilla = {
     burnTime: 10,
 	burnInto: ["ash","fragrance"],
 }
-elements.blue_sand = {
+elements.bluish_sand = {
     color: "#0000ff",
     behavior: [
         "XX|XX|XX",
