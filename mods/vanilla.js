@@ -3,6 +3,7 @@ elements.vanilla = {
     behavior: behaviors.POWDER,
     category: "food",
     state: "solid",
+	burn: 3,
     burnTime: 10,
 	burnInto: ["ash","fragrance"],
 }
