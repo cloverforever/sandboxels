@@ -3,4 +3,16 @@ elements.vanilla = {
     behavior: behaviors.POWDER,
     category: "food",
     state: "solid",
+    burnTime: 10,
+	burnInto: ["ash","fragrance"],
+}
+elements.blue_sand = {
+    color: "#0000ff",
+    behavior: [
+        "XX|XX|XX",
+        "XX|XX|XX",
+        "M2|M1|M2"
+    ],
+    category: "land",
+    state: "solid"
 }
