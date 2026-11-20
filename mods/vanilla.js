@@ -6,14 +6,9 @@ elements.vanilla = {
 	burn: 3,
     burnTime: 10,
 	burnInto: ["ash","fragrance"],
+	reactions: {
+        "dough": { elem1:"incense", elem2:"incense", chance:0.1 },
+        "herb": { elem1:"incense", elem2:"incense", chance:0.1 }
+    },
 }
-elements.bluish_sand = {
-    color: "#0000ff",
-    behavior: [
-        "XX|XX|XX",
-        "XX|XX|XX",
-        "M2|M1|M2"
-    ],
-    category: "land",
-    state: "solid"
-}
+
